@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <p>
+        <h1>Hello User</h1>
+        <P>Register Here</P>
+        <form action="">
+
+            <label for="name">username
+                <input type="text" placeholder="username"  id="name">
+            </label>
+            <br><br>
+            <label for="email">Enter email</label>
+            <input type="email" placeholder="enter email" id="email"><br><br>
+            <label for="password">password
+                <input type="password" placeholder="password" id="password">
+            </label><br><br>
+            <label for="date">select your birthday</label>
+            <input type="date" id="date"><br><br>
+
+            <label for="favourite-language">select your favourite language
+                <br>
+                <input type="radio" name="fav_lang" value="fav_lang">html
+            </label>
+            <br>
+            <label for="favourite-language">
+                <input type="radio" name="fav_lang" value="fav_lang">css
+            </label>
+            <br>
+            <label for="favourite-language">
+                <input type="radio" name="fav_lang" value="fav_lang">javascript
+            </label>
+            <br><br><br>
+            <label for="education">Select Your education<br>
+            <input type="checkbox" name="education" id="education">class X
+        </label> <label for="education"><br>
+            <input type="checkbox" name="education" id="education">class XII
+            </label>
+            <label for="education"><br>
+            <input type="checkbox" name="education" id="education">Under Graduation
+            </label>
+            <br><br>
+            <label for="city">Select Your city</label><br>
+            <select name="city" id="your_city" style="width:150px;">
+                <option value="Delhi">Delhi</option>
+                <option value="Mumbai">Mumbai</option>
+                <option value="Chennai">Chennai</option>
+                <option value="Bangalore" selected>Bangalore</option>
+            </select><br><br>
+            <label for="resume">upload resume</label><br>
+            <input type="file" style="width: 200px;">
+            <br>
+            <br>
+            <textarea name="feedback" id="feedback" cols="30" rows="10">Please give us your feedback</textarea><br>
+
+            <input type="submit" value="submit" onclick="alert('thank you for the response')">
+            <input type="reset" value="reset">
+        </form>
+    </p>
+</body>
+
+</html>
